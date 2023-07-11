@@ -104,20 +104,14 @@
                                 <input type="text" name="Phone" class="form-control" placeholder="Phone" required>
                               </div>
                               <div class="form-group">
-                                <input type="text" name="Zipcode" class="form-control" placeholder="Zipcode" required>
-                              </div>
-                              <div class="form-group">
-                                <div class="button-slider">
-                                  <div class="btn-group btn_group">
-                                    <div class="btn btn-default btn_amount">Buying Power </div>
-                                    <div class="btn btn-default btn_slider">
-                                      <input id="bootstrap-slider" type="text" name="Buying-Power" data-slider-min="5000" data-slider-max="500000" data-slider-step="5000" data-slider-value="250000">
-                                      <div class="valueLabel"><span class="text_span">Amount &nbsp; &nbsp;</span> $<span id="sliderValue">250000</span></div>
-                                    </div>
-                                  </div>
-                                </div>
+                              <select class="form-control" name="loan_type" required="yes">
+                                <option value="">Purchase Reason</option>
+                                <option value="Car">Investor</option>
+                                <option value="Residence">Residence</option>
+                              </select>
                               </div>
                               <button type="submit" class="btn btn-default quote_btn">Submit</button>
+                              <center><span style="color: #a4a4a4"><small>Clicking Submit You Concent to Our <a href="/privacy">Privacy Policy</a></small></span></center>
                             </form>
                         </div>
                     </div>
